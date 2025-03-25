@@ -20,7 +20,7 @@
     border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
     padding-top: 20px;
-    color: rgb(82, 80, 80);
+    color:#6F6F6F;
    }
   
    .header {
@@ -98,7 +98,7 @@
   }
   
   #clear-completed:hover {
-   color: rgb(49, 47, 47);
+   color: #B7B7B7
   }
   
   .rotate {

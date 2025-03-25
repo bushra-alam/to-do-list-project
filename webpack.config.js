@@ -18,6 +18,9 @@ export default {
   plugins: [
     new HtmlWebpackPlugin({
       title: 'Development',
+      template: './src/index.html', // ✅ Use the correct path
+      filename: 'index.html', // ✅ Ensure it generates properly
+    
     }),
   ],
   module: {

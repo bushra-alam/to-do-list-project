@@ -117,3 +117,30 @@
     transition: border 0.1s ease;
   }
   
+
+  /* Prevent input from shifting layout while editing */
+.edit-input {
+  font-size: 16px;
+  font-family: inherit;
+  padding: 5px;
+  border: none;
+  outline: none;
+  background: transparent;
+  color: inherit;
+  width: 100%;
+}
+
+ match appearance more closely */
+.todo-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Keep task text and input aligned */
+.todo-item input[type="text"].edit-input {
+  flex: 1;
+  margin-left: 10px;
+}
